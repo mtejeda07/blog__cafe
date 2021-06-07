@@ -58,6 +58,12 @@ img {
     text-align: center;
 }
 /** HEADER  **/
+.webp .header{
+    background-image: url(../img/banner.webp);
+} 
+.no-webp .header{
+    background-image: url(../img/banner.jpg);
+}
 .header {
     background-image: url(../img/banner.jpg);
     height: 60rem;
@@ -167,9 +173,9 @@ img {
 }
 .widget-curso__label,
 .widget-curso__info,
-.curos__label,
-{
-    font-size: 2rem;
+.curos__label{
+
+    font-size:2rem;
 }
 .footer {
     background-color: var(--negro);
@@ -205,6 +211,8 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
 .formulario {
 
 }
